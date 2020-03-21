@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+   <head>
+	 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js">
+	 </script>
+	 <script>
+	     $(document).ready(function() {
+		     $("#but1").click(function() {
+			     $("div:odd").slideUp("slow");
+				 }); 
+			 });
+	 </script>		 
+   </head>
+   <body>	
+     <button id="but1">Спрятать чётные картинки!</button>
+	 <br><br>
+	 <div><img src="rasp.jpg"></div>
+	 <div><img src="blueb.jpg"></div>
+	 <div><img src="strawb.jpg"></div>
+	 <div><img src="blackb.jpg"></div>
+	 <div><img src="whiteb.jpg"></div>
+	 <div><img src="cherry.jpg"></div>	 
+   </body>
+</html>
